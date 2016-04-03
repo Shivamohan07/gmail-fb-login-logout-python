@@ -9,13 +9,13 @@ from selenium.webdriver.common.by import By
 
 driver = webdriver.Firefox()
 driver.get("http://www.gmail.com");
-driver.find_element_by_id('Email').send_keys('shivamohan07@gmail.com')
+driver.find_element_by_id('Email').send_keys('gmailid')
 driver.find_element_by_id('next').click()
 driver.find_element_by_id('Passwd').send_keys('gmail pass')
 driver.find_element_by_id('signIn').click()
 driver.find_element_by_tag_name("body").send_keys(Keys.CONTROL + "t");
 driver.get("http://www.facebook.com")
-driver.find_element_by_id('email').send_keys('shivamohan07@yahoo.co.in')
+driver.find_element_by_id('email').send_keys('fb_id')
 driver.find_element_by_id('pass').send_keys('facebook pass')
 driver.find_element_by_id('u_0_w').click()
 
